@@ -57,7 +57,9 @@ executable hein
   -- exposed-modules:     
   
   -- Modules included in this library but not exported.
-  -- other-modules:       
+  other-modules:       Development.Heineken
+                     , Development.Heineken.Plugin
+                     , Development.Heineken.New
   
   -- LANGUAGE extensions used by modules in this package.
   -- other-extensions:    
