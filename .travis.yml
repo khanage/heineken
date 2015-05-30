@@ -6,5 +6,6 @@ deploy:
   password:
     secure: d9C8vtqu7m7UXqzQFUqugln3sa93PlZ0pDCT6uw4lVoDqLUfanRTjFrAyz6Bm2/E0tgagye9AaXXRYwIrZxmRq0Ft8z+X/oI0PL/9hPxt9oNCowJj1kP77AqFN05FL/6niq8ImJ6w+2ILOk3Us9cHALeKY9SzVwf4s/LA+/PP/Fs2OKMYY1eQZulUh1WiD9uWyw0k3oj8VGdFb/kaa/h6Dm3brY7V1MYO3R6iEvGqfXNHKkbym9oMgLeKqP4YAYENgnUtZyt2zsaI8+nQ4uGJN5ijwcX2DQbOtDDkXnSEPM3kietxLwbQwl2t4T2rtcZ+tKi49xDF5VjBd1j+ixLpTGoTOGK7SQOR2ONVm16Vs3exAKw6ToI0K15MZfaOagufmhxKwhEzACsg0DRFZ12B/hHND0jtllR6IJeCJIaNA9bgcZeADd5MdcyZYLIz7T2OmTKK/gmv647uk3AJfpGY4rIPP9BjIjArY8V/gbs+ICZR/78xXhXF+U+kq93whWYUbr06mxLOz5cbHvNZOOrK7eMK1hoH5Re+/23WHVlOWj+ecwFIOwOALmem2Kq2eue8LYob4GEIm0n+GQ04q2IhRh1ae+Nt8cbrxV6Ofi70ps0BdzCeHPPXWRWBU2Jj40bo1zYw2rUr3Ao8ZQfyj9t5DkVyIcx027OlB1n8iaAevw=
   on:
+    all_branches: true
     repo: khanage/heineken
     tags: true
