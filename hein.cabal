@@ -15,11 +15,13 @@ version:             0.1.0.0
 -- A short (one-line) description of the package.
 synopsis:            An extensible build helper for haskell, in the vein of leiningen.
 
+description: A general build tool for haskell projects inspired by leiningen. It is intended to be useful for the automation of all project creation tedium, as well as eventually integrate with cloud deployments. It is intended that this will support arbitrary plugins in the future.
+
 -- A longer description of the package.
 -- description:         
 
 -- URL for the project homepage or repository.
-homepage:            https://github.com/khanage/hein
+homepage:            https://github.com/khanage/heineken
 
 -- The license under which the package is released.
 license:             Apache-2.0
@@ -76,4 +78,8 @@ executable hein
   
   -- Base language which the package is written in.
   default-language:    Haskell2010
-  
+
+source-repository this
+  type: git
+  location: https://github.com/khanage/heineken.git
+  tag: 0.1.0.0
