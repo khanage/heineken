@@ -1,4 +1,7 @@
 # heineken
+
+[![Build Status](https://travis-ci.org/khanage/heineken.svg?branch=master)](https://travis-ci.org/khanage/heineken)
+
 A general build tool for haskell projects inspired by leiningen. It is intended to be useful for the automation of all project creation tedium, as well as eventually integrate with cloud deployments.
 
 It is intended that this will support arbitrary plugins in the future.
