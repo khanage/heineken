@@ -10,7 +10,7 @@ name:                hein
 -- PVP summary:      +-+------- breaking API changes
 --                   | | +----- non-breaking API additions
 --                   | | | +--- code changes with no API change
-version:             0.1.0.3
+version:             0.1.0.4
 
 -- A short (one-line) description of the package.
 synopsis: An extensible build helper for haskell, in the vein of leiningen.
@@ -82,4 +82,4 @@ executable hein
 source-repository this
   type: git
   location: https://github.com/khanage/heineken.git
-  tag: 0.1.0.3
+  tag: 0.1.0.4
