@@ -67,7 +67,7 @@ plugin = HeinekenPlugin
              sourceDir = "src"
              mainFile = "Main.hs"
              mainFilePath = sourceDir </> mainFile
-             defaultDependencies = ["base >=4.7 && <4.8"]
+             defaultDependencies = ["base"]
              dependencies = dependenciesIn defaultDependencies args
 
          putStrLn "Creating sandbox..."
