@@ -19,3 +19,11 @@ Run 'hein new <proj name>' will:
  * run your project (which defaults to printing the proj name)
  
 You can also specify additional dependencies by prefixing them with a plus, e.g. `hein new webtest +scotty` will add scotty as a dependency to your build.
+
+# Installation
+
+This assumes you have a recent cabal installed for your platform.
+
+ * cabal update
+ * cabal install hein
+ * hein new project +dependency
