@@ -67,6 +67,7 @@ plugin = HeinekenPlugin
              sourceDir = "src"
              mainFile = "Main.hs"
              mainFilePath = sourceDir </> mainFile
+             readmeFilePath = "README.md" --File path is filename in current dir
              defaultDependencies = ["base"]
              dependencies = dependenciesIn defaultDependencies args
 
@@ -95,6 +96,10 @@ plugin = HeinekenPlugin
            , "main :: IO ()"
            , "main = putStrLn \"" ++ packageName ++ "!\""
            ]
+
+         putStrLn "Creating README.md file"
+         writeFile readmeFilePath $ intercalate "\n"
+           ["#" ++ packageName ++ "!"]
 
          putStrLn "Running build"
          ExitSuccess <- rawSystem "cabal" ["install"]
